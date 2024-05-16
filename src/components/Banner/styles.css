@@ -1,0 +1,29 @@
+
+
+.Banner{
+    width: 300px;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.Banner img{
+    width: 40px;
+    height: 40px;
+}
+
+.Banner h2{
+    font-size: 30px;
+    color: blueviolet;
+}
+
+.Banner p {
+    font-size: 15px;
+    color: cadetblue;
+}
+
