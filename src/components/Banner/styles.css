@@ -19,11 +19,11 @@
 
 .Banner h2{
     font-size: 30px;
-    color: blueviolet;
+    color: rgb(255, 0, 106);
 }
 
 .Banner p {
     font-size: 15px;
-    color: cadetblue;
+    color: rgb(140, 0, 255);
 }
 
