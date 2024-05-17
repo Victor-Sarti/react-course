@@ -1,22 +1,22 @@
-*{
+* {
     box-sizing: border-box;
     text-decoration: none;
     padding: 0;
     margin: 0;
+    border: none;
 }
 
-
-body{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-width: 100%;
-background-color: rgb(78, 2, 2);
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: BLACK;
+  gap: 40px;  
 }
 
-
-.card{
+.card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,18 +24,12 @@ background-color: rgb(78, 2, 2);
     width: 100%;
 }
 
-h1{
-font-size: 40px;
-color: red;
+.card h1 {
+    font-size: 40px;
+    color: rgb(212, 121, 3);
 }
 
-p{
+.card p {
     font-size: 25px;
-    color: blue;
-}
-
-.all-banner{
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
+    color: rgb(255, 255, 255);
 }

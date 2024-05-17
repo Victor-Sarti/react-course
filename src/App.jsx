@@ -1,15 +1,7 @@
 import "./App.css"
 
-import Banner from "./components/Banner"
-
-import camera from "./assets/images/svg/camera-svgrepo-com.svg"
-import card from "./assets/images/svg/card-holder-svgrepo-com.svg"
-import phone from "./assets/images/svg/cell-phone-svgrepo-com.svg"
-import earphone from "./assets/images/svg/earphone-svgrepo-com.svg"
-import gas from "./assets/images/svg/gas-station-svgrepo-com.svg"
-import transportation from "./assets/images/svg/transportation-svgrepo-com.svg"
-
-
+import Layout from "./components/Layout";
+import camisa from "./assets/images/svg/camisa.svg"
 
 
 function App() {
@@ -19,17 +11,15 @@ function App() {
         <h1>React</h1>
         <p> Front-End JavaScript</p>
       </div>
-    <div className="all-banner" >  
+   
+   <Layout tags="CHEGOU" title="NOVA CAMISA DO SANTOSFC " description="Santos FC, Umbro e Charlie Brown Jr. estão juntos novamente para mais uma collab. Nesta segunda-feira (13) ocorre o lançamento de uma nova camisa que envolve as três marcas. O modelo chega em edição limitada e numerada.
 
-     <Banner title ="OI" description="Você quer um quebrado?" image={camera}/>
-     <Banner title ="SALVEE" description="?" image={card}/>
-     <Banner title ="MARCHA" description="PA ONDE ?" image={phone}/>
-     <Banner title ="PRA LÁ" description="Você vai ?" image={earphone}/>
-     <Banner title ="VOU PASSAR NO POSTO" description="Eu vou, você vai comigo ?" image={gas}/>
-     <Banner title ="TO INDO DE CAMINHÃO" description="To indo te buscar ai" image={transportation}/>
-  
-  </div>
-</body>
+A camisa entre Santos FC e CBJR é uma homenagem à banda, que nasceu na cidade do litoral paulista. Serão apenas 1.992 unidades do modelo, alusão ao ano de criação do grupo musical.
+
+“Santos FC, Umbro e Charlie Brown Jr. tem uma parceria histórica. O lançamento de uma camisa tão especial e limitada mostra essa importância. Tenho certeza que será mais um grande sucesso de vendas”, afirmou o presidente Marcelo Teixeira.
+
+O modelo é tingido na cor preta e acompanha tons de dourado. Na parte central da camisa está escrito o nome da banda. Com gola em V, a peça limitada ainda acompanha uma aplicação emborrachada de um skatista próximo ao escudo do Santos FC e da Umbro, além de grafismos do mesmo skatista por toda a camisa." image={camisa} /> 
+  </body>
     );
 }
 
