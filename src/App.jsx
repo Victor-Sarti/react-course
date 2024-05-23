@@ -1,21 +1,19 @@
 import "./App.css"
+import TeamComposition from "./components/Team";
+import Contact from "./components/Contacts/src/pattern/composition/contact-title.composition";
+import ContactForm from "./components/Contacts/src/pattern/composition/contact-form.composition";
 
-import Layout from "./components/Layout";
-import camisa from "./assets/images/svg/camisa.svg"
-import Content from "./components/Team/Components/content";
-import Section from "./components/Team/Components/section";
-import Main from "./components/Team/Components/main";
 
 
 function App() {
   return (
-<body> 
-  
-   < Section/>
-   <Content/>
-   <Main/>
-  </body>
-    );
+    <body>
+      <Contact/>
+     <ContactForm/>
+    </body>
+  );
 }
 
 export default App;
+
+
