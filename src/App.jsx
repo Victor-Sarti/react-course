@@ -8,8 +8,7 @@ import ContactForm from "./components/Contacts/src/pattern/composition/contact-f
 function App() {
   return (
     <body>
-      <Contact/>
-     <ContactForm/>
+     <TeamComposition image/>
     </body>
   );
 }
