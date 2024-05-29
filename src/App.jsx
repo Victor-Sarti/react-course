@@ -1,14 +1,14 @@
 import "./App.css"
-import TeamComposition from "./components/Team";
-import Contact from "./components/Contacts/src/pattern/composition/contact-title.composition";
-import ContactForm from "./components/Contacts/src/pattern/composition/contact-form.composition";
+
+import Square from "./styles/styled-component/components/Square";
 
 
 
 function App() {
   return (
     <body>
-     <TeamComposition image/>
+     <Square borderStyle = "dotted" colorStyle = ""/>
+     
     </body>
   );
 }
