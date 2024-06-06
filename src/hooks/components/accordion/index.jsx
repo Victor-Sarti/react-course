@@ -4,7 +4,7 @@ import { AngleUp} from "./src";
 import { AngleDown } from "./src";
 import { useState } from "react";
 
-export default function Accordion() {
+export default function Accordion(props) {
     const [visible, setVisible] = useState(false)
 
     function HandleAccordion(){
@@ -13,14 +13,14 @@ export default function Accordion() {
     return(
         <AccordionWrapper> 
             <AccordionContainer>
-                 <AccordionText> Whats is an accordion component ? </AccordionText>
+                 <AccordionText> {props.title}</AccordionText>
                  <AccordionButton onClick={HandleAccordion}>
                     <AccordionImage  src={ visible == false ? AngleDown : AngleUp}/>
                   </AccordionButton>
              </AccordionContainer>
       {visible &&(
             <AccordionContent>
-            <AccordionText> Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati et commodi corporis, impedit, unde non nulla, repudiandae mollitia fugit blanditiis sequi labore consequatur fugiat quia distinctio qui nisi quasi! Sint ex ducimus nulla facilis. Ullam reprehenderit fugit nulla enim modi? Minima asperiores quibusdam dolorum labore ducimus debitis, eligendi sapiente atque? </AccordionText>
+            <AccordionText> {props.description}</AccordionText>
         </AccordionContent> 
        
        )} 
