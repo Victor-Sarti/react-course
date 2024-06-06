@@ -34,7 +34,9 @@ export const AccordionContainer = styled.div`
 
 `
 
-export const AccordionText = styled.p``
+export const AccordionText = styled.p`
+font-size: 16px;
+`
 
 export const AccordionButton = styled.button``
 
