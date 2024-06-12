@@ -1,14 +1,24 @@
+import { Route, Router, Routes } from "react-router-dom";
 import "./App.css"
-import DropDownMenu from "./hooks/components/DropDownMenu";
-import { Description, Title } from "./hooks/components/DropDownMenu/style";
 import Navbar11 from "./hooks/components/NavBar11";
+import TeamComposition from "./components/Team"
+
+function Home(){
+  return(
+    <Navbar11/>
+    
+  )
+}
 
 function App() {
  
  return (
  
     <body>
-    <Navbar11/>
+      <Routes>
+          <Route path="/" Component={Home}/>
+          <Route path="/teams" Component={TeamComposition}/>
+      </Routes>
          
     </body>
   );

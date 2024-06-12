@@ -3,13 +3,14 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 position: absolute;
-top: 60px;
+top: 64px;
 right: 140px;
 width: 398px;
 height: 340px;
 padding: 24px;
 display: flex;
 flex-direction: column;
+background-color: white;
 border: 1px solid black;
 gap: 16px;
 `
