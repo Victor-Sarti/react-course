@@ -3,22 +3,26 @@ import *  as S from  "./style"
 import DropDownMenu from "../DropDownMenu"
 
 export default function Navbar11(){
-   const [open, setOpen] = useState(true)
+  const [open, setOpen] = useState(false)
+  // Arrow function
+  const handleMenu = () => {
+    return setOpen(!open)
+  }
    const listpages = [
     {
       Title : "Pages one",
     Description : "Lorem ipsum dolor, sit amet consectetur adipisicing."
     },
     {
-      Title : "Pages one",
+      Title : "Pages two",
     Description : "Lorem ipsum dolor, sit amet consectetur adipisicing."
     },
     {
-      Title : "Pages one",
+      Title : "Pages three",
     Description : "Lorem ipsum dolor, sit amet consectetur adipisicing."
     },
     {
-      Title : "Pages one",
+      Title : "Pages four",
     Description : "Lorem ipsum dolor, sit amet consectetur adipisicing."
     },
         ]
@@ -30,7 +34,7 @@ export default function Navbar11(){
                 <S.Link> Link 1</S.Link>
                 <S.Link> Link 2</S.Link>
                 <S.Link> Link 3</S.Link>
-                <S.Link> Link 4</S.Link>
+                <S.Link  onClick={handleMenu} > Link 4</S.Link>
                 
                 {
                     open && <DropDownMenu pages = {listpages}/>
