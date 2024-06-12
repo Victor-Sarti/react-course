@@ -1,6 +1,7 @@
 import { useState } from "react"
 import *  as S from  "./style"
 import DropDownMenu from "../DropDownMenu"
+import {Link} from "react-router-dom"
 
 export default function Navbar11(){
   const [open, setOpen] = useState(false)
@@ -31,7 +32,9 @@ export default function Navbar11(){
         <S.Container>
             <S.Logo>LOGO</S.Logo>
             <S.Nav>
-                <S.Link> Link 1</S.Link>
+                <S.Link> 
+                  <Link to="/teams"> Teams </Link>
+                </S.Link>
                 <S.Link> Link 2</S.Link>
                 <S.Link> Link 3</S.Link>
                 <S.Link  onClick={handleMenu} > Link 4</S.Link>
