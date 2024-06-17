@@ -6,8 +6,9 @@ import TeamComposition from "./components/Team"
 import Home from "./styles/tailwindcss/components/home"
 import Navbar11 from "./hooks/components/NavBar11";
 
-import PageTwo from "./pages/PageTwo";
+
 import PageThree from "./pages/PageThree";
+import GetPokemon from "./api/api-pokemon";
 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
           <Route path="/" Component={Home}/>
           <Route path="/teams" Component={TeamComposition} />
           <Route path="/NavBar11" Component={Navbar11} />
-          <Route path="/PageTwo" Component={PageTwo} />
+          <Route path="/PageTwo" Component={GetPokemon} />
           <Route path="/PageThree" Component={PageThree} />
         
        
