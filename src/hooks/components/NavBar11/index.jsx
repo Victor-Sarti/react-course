@@ -36,10 +36,10 @@ export default function Navbar11(){
                   <Link to="/teams"> Teams </Link>
                 </S.Link>
 
-                <S.Link> <Link to="/PageTwo"> Link 2</Link> 
+                <S.Link> <Link to="/PageTwo"> Search Pokemon</Link> 
                 </S.Link>
 
-                <S.Link> <Link to="/PageThree"> Link 3</Link> </S.Link>
+                <S.Link> <Link to="/PageThree"> Search CEP</Link> </S.Link>
 
                 <S.Link  onClick={handleMenu} > Link 4</S.Link>
                 
