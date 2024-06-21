@@ -7,7 +7,7 @@ export default function Home() {
         <h1 className="text-6xl text-black-900">React Course</h1>
         <h2 className="mt-4 text-2xl">by Suporte de Domingo</h2>
       </section>
-      <p className="text-end mt-4 text-purple-800 underline underline-offset-8">
+      <p className="text-end mt- text-purple-800 underline underline-offset-8">
         <Link to="/NavBar11"> ir para o nav</Link>
       </p>
       
