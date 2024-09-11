@@ -10,7 +10,7 @@ export default function Headline() {
              Eaque qui officia ducimus voluptate nobis nulla quis in.
              Ea enim maiores repudiandae quas. Iusto doloribus iste assumenda autem?
               Doloribus, ipsum accusamus. </p>
-      
+      <h1 className=" bg-pur"> oi</h1>
         </div>
     )
 }

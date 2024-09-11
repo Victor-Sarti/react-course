@@ -3,7 +3,7 @@
 
 export default function facebook(){
     return(
-<div className=" w-screen h-screen bg-gray-facebook flex items-center justify-center flex-col md:flex-row ">
+<div className=" w-screen h-screen  bg-gray-facebook flex items-center justify-center flex-col md:flex-row ">
     
     <div className="w-580 pr-8  text-center md:text-left" >
     <h1 className="text-blue-facebook font-bold text-5xl"> Facebook</h1>
