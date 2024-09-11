@@ -17,9 +17,3 @@ body {
   flex-direction: column;
   justify-content: center;
 }
-
-@layer components{
-    .input-facebook{
-      @apply  bg-gray-custum rounded-sm  border w-full  h-45 mb-8  pl-8;
-    }
-}
